@@ -8,10 +8,9 @@ class SolutionTest {
 
     @Test
     void testSolution() {
-        int[] nums = new int[]{3,3};
-        int target = 6;
-        Solution solution= new Solution();
-        var result= solution.twoSum(nums,target);
+        int[] nums = new int[]{2,5,5,11};
+        int target = 10;
+        var result= Solution.twoSum(nums,target);
         System.out.println(result[0]+","+result[1]);
         log.info("Don't forget to write the tests to make sure it works. Enjoy!");
     }
