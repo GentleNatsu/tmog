@@ -8,7 +8,7 @@ class SolutionTest {
 
     @Test
     void testSolution() {
-        System.out.println(Solution.isValid("()()()()()"));
+        System.out.println(Solution.isValid("([)]"));
         log.info("Don't forget to write the tests to make sure it works. Enjoy!");
     }
 
